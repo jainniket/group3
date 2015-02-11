@@ -1,0 +1,44 @@
+body{
+  background-image: url("bckgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+div{
+  width:100%;
+  text-align: center;
+  margin: 15px;
+}
+.button2{
+  border-radius:20px;
+  width:100px;
+  margin:auto;
+  padding:15px;
+  border: none;
+  background: linear-gradient(#FC9B26, #F47922); 
+  cursor:pointer;
+  text-shadow: 2px 2px #F47922;
+}
+span{
+  color:white;
+  font: Helvetica, sans-serif;
+}
+.button3,.button3hov{
+  border-radius:20px;
+  width:150px;
+  margin:auto;
+  padding:9px;
+  border: none;
+  background: linear-gradient(#FC9C24, #F27B21); 
+  text-shadow: 2px 2px #F47922;
+  font:20px,Helvetica, Times; 
+}
+.button3hov:hover{
+  border-radius:20px;
+  width:150px;
+  margin:auto;
+  padding:9px;
+  border: none;
+  background: linear-gradient(#FC9C24, #C85718); 
+  text-shadow: 2px 2px #F47922;
+  font:20px,Helvetica, Times;
+}
